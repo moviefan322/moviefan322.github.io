@@ -1,7 +1,9 @@
 .header {
-  background: #151515 url("bg.jpg") no-repeat center center;
+  top: -65px;
+  background: #151515 url("/dist/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  zoom: 1.05;
 }
 
 .header::after {
