@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark py-0">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-dark py-0">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src="favicon.ico" alt="" width="50px" />
@@ -61,7 +61,6 @@ function Navbar() {
                 className="form-check-label"
                 htmlFor="flexSwitchCheckDefault"
               >
-                Default switch checkbox input
               </label>
             </div>
           </div>
