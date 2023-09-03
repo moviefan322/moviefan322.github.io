@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top navbar-dark py-0">
-      <div className="container d-flex justify-content-between">
+      <div className="container d-flex justify-content-between bg-dark">
         <a className="navbar-brand" href="#">
           <img src="favicon.ico" alt="" width="50px" />
         </a>
@@ -16,7 +16,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse text-center" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">

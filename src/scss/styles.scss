@@ -27,3 +27,14 @@
 .header .social {
   bottom: 50px;
 }
+
+@media (max-width: 767px) {
+
+  .about-content {
+    flex-direction: column !important;
+  }
+
+  .header .social {
+    bottom: 30px;
+  }
+}
