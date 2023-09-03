@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="d-flex mt-5">
+    <div className="d-flex mt-5 footer">
       <p className="flex-grow-1">Copyright &copy; 2023 | Design By Styleshout</p>
       <div className="hstack gap-3">
         <a className="text-decoration-none" href="#">
