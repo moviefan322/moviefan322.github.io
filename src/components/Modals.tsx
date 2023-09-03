@@ -4,7 +4,7 @@ function Modals() {
       {/* <!-- Modal 1 --> */}
       <div id="modal1" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -48,7 +48,7 @@ function Modals() {
       {/* <!-- Modal 2 --> */}
       <div id="modal2" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -93,7 +93,7 @@ function Modals() {
       {/* <!-- Modal 3 --> */}
       <div id="modal3" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img src="love-hungry-1.png" alt="" className="img-fluid" />
@@ -135,7 +135,7 @@ function Modals() {
       {/* <!-- Modal 4 --> */}
       <div id="modal4" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -177,7 +177,7 @@ function Modals() {
       {/* <!-- Modal 5 --> */}
       <div id="modal5" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -218,7 +218,7 @@ function Modals() {
       {/* <!-- Modal 6 --> */}
       <div id="modal6" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-dark text-white p-5">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img src="devblog.png" alt="" className="img-fluid" />
