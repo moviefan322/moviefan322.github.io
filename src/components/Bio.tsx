@@ -1,6 +1,6 @@
 function Bio() {
   return (
-    <section id="about" className="about bg-light py-5">
+    <section id="about" className="about bg-light pt-0 pb-4">
       <div className="container">
         <div className="text-center">
           <h4 className="text-uppercase fw-bold text-primary">About Me</h4>
