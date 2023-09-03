@@ -50,6 +50,16 @@
   z-index: 10;
 }
 
+.stats {
+  position: relative;
+  top: -80px;
+}
+
+.contact {
+  position: relative;
+  top: -80px;
+}
+
 @media (max-width: 767px) {
   .about-content {
     flex-direction: column !important;
