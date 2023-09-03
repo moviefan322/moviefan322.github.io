@@ -1,9 +1,15 @@
+.navbar {
+  transition: all 0.5s ease-in-out;
+  width: 100vw;
+}
+
 .header {
   top: -65px;
   background: #151515 url("/dist/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   zoom: 1.05;
+  height: 110vh !important;
 }
 
 .header::after {
@@ -55,11 +61,6 @@
   margin-top: -80px;
 }
 
-.contact {
-  position: relative;
-  margin-top: -80px;
-}
-
 .footer {
   position: relative;
   margin-top: -80px;
@@ -71,6 +72,20 @@
   top: 20%;
 }
 
+.skills-svgs li {
+  width: 75px !important;
+  list-style-type: none;
+}
+
+.skills-list li {
+  list-style-type: none;
+}
+
+.skills-list hr {
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 767px) {
   .about-content {
     flex-direction: column !important;
@@ -78,5 +93,9 @@
 
   .header .social {
     bottom: 30px;
+  }
+
+  .skills-list {
+    text-align: center;
   }
 }

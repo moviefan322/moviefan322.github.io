@@ -12,11 +12,11 @@ function Skills() {
   ];
 
   return (
-    <div className="bg-dark">
+    <div id="skills" className="bg-dark">
       <section className="skills container py-4 text-white">
-        <div className="row d-flex flex-row">
+        <div className="row d-flex flex-row justify-content-center">
           <div className="col-md-8">
-            <ul className="d-flex flex-row list-group">
+            <ul className="d-flex flex-row list-group skills-svgs gap-3">
               <li className="w-25 list-group-item p-0 border-0 m-0 bg-dark">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                   <path
@@ -50,7 +50,7 @@ function Skills() {
                 </svg>
               </li>
             </ul>
-            <ul className="d-flex flex-row list-group">
+            <ul className="d-flex flex-row list-group skills-svgs">
               <li className="w-25 list-group-item bg-dark border-0 text-light">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                   <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z" />
@@ -58,7 +58,7 @@ function Skills() {
               </li>
             </ul>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 skills-list">
             <h3 className="text-uppercase fw-bold ms-3 pt-3">Key Skills</h3>
             <hr className="w-50" />
             <ul className="list-group list-group-flush mx-4">
@@ -73,7 +73,7 @@ function Skills() {
           <div className="row mt-5 text-center">
             <div className="col-12">
               <a
-                href="#"
+                href="#contact"
                 className="btn btn-primary btn-lg text-uppercase px-5 mx-3 my-2"
               >
                 Hire Me Now

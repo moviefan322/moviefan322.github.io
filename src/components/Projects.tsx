@@ -3,7 +3,7 @@ import Modals from "./Modals";
 function Projects() {
   return (
     <>
-      <section className="my-5 pb-5">
+      <section className="my-5 pb-5" id="projects">
         <div className="container">
           <div className="row mb-5">
             <div className="text-center">

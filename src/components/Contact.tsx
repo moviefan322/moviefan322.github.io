@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section className="contact text-bg-dark bg-gradient py-5">
+    <section id="contact" className="contact text-bg-dark bg-gradient py-5">
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2">
