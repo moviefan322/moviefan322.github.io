@@ -247,7 +247,7 @@ function Skills() {
                 Hire Me Now
               </a>
               <a
-                href="#"
+                href="resumephil.pdf"
                 className="btn btn-light btn-lg text-uppercase px-5 mx-3 my-2"
               >
                 Download CV

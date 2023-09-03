@@ -13,14 +13,14 @@ function Modals() {
                   className="img-fluid border border-dark"
                 />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>AllSports</h3>
                 <p>
                   AllSports is built on a classic MERN stack with Redux. The
                   application allows users to create a profile, follow their
                   favorite sports teams, and bet on live games.
                 </p>
-                <div className="mt-7 d-flex justify-content-between">
+                <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
                     href="https://sports-app322.herokuapp.com/"
                     className="btn btn-primary text-white btn-outline-dark"
@@ -57,7 +57,7 @@ function Modals() {
                   className="img-fluid border-dark border"
                 />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>Españolified</h3>
                 <p>
                   Españolified is built with a Nest.js server with PostresSQL
@@ -65,7 +65,7 @@ function Modals() {
                   Spanish-language text book with lessons, quizzes, and allows
                   users to track their progress and stats as they learn Spanish.
                 </p>
-                <div className="mt-7 d-flex justify-content-between">
+                <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
                     href="https://espanolified.vercel.app/"
                     className="btn btn-primary text-white btn-outline-dark"
@@ -98,7 +98,7 @@ function Modals() {
               <div className="col-md-6 mt-4">
                 <img src="love-hungry-1.png" alt="" className="img-fluid" />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>Love Hungry</h3>
                 <p>
                   Love Hungry is built with Node.js and handlebars. It is a
@@ -107,7 +107,7 @@ function Modals() {
                   their area interested in eating the same cuisine and
                   recommends restaurants near you.
                 </p>
-                <div className="mt-7 d-flex justify-content-between">
+                <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
                     href="https://love-hungry.herokuapp.com/"
                     className="btn btn-primary text-white btn-outline-dark"
@@ -145,7 +145,7 @@ function Modals() {
                   style={{ height: "400px", marginLeft: "20%" }}
                 />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>Laronix Mobile</h3>
                 <p>
                   Laronix Mobile is built with a Next.js front end and a
@@ -156,7 +156,7 @@ function Modals() {
                   application is proprietary and not available for public
                   viewing.
                 </p>
-                <div className="mt-8 d-flex justify-content-between">
+                <div className="mt-8 d-flex justify-content-between modal-link">
                   <a
                     href="https://develop.d3igioyq2kg6x4.amplifyapp.com/"
                     className="btn btn-primary text-white btn-outline-dark"
@@ -186,7 +186,7 @@ function Modals() {
                   className="img-fluid bg-light p-5 position-relative w-75 top-50 start-50 translate-middle"
                 />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>Invisible Friend</h3>
                 <p>
                   Invisible Friend is built with a classic MERN stack and
@@ -197,7 +197,7 @@ function Modals() {
                   online, but the code is available for viewing and it may be
                   run locally.
                 </p>
-                <div className="mt-7 d-flex justify-content-between">
+                <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
                     href="https://github.com/moviefan322/Invisible-Friend"
                     className="btn btn-dark text-white btn-outline-light"
@@ -223,13 +223,13 @@ function Modals() {
               <div className="col-md-6 mt-4">
                 <img src="devblog.png" alt="" className="img-fluid" />
               </div>
-              <div className="col-md-6 mt-4 text-center">
+              <div className="col-md-6 mt-4 text-center modal-dex">
                 <h3>Dev Blog</h3>
                 <p>
                   This is my dev blog where I write about my coding adventures.
                   It is built entirely on Next.js.
                 </p>
-                <div className="mt-7 d-flex justify-content-between">
+                <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
                     href="https://next-ts-blog-lake.vercel.app/"
                     className="btn btn-primary text-white btn-outline-dark"
