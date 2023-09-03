@@ -4,7 +4,7 @@ function Modals() {
       {/* <!-- Modal 1 --> */}
       <div id="modal1" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -30,7 +30,7 @@ function Modals() {
                   </a>
                   <a
                     href="https://github.com/moviefan322/mlbapi"
-                    className="btn btn-dark text-white mx-4"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
                   >
                     {" "}
                     Code{" "}
@@ -48,7 +48,7 @@ function Modals() {
       {/* <!-- Modal 2 --> */}
       <div id="modal2" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -75,7 +75,7 @@ function Modals() {
                   </a>
                   <a
                     href="https://github.com/moviefan322/spanish-app"
-                    className="btn btn-dark text-white mx-4"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
                   >
                     {" "}
                     Code{" "}
@@ -93,7 +93,7 @@ function Modals() {
       {/* <!-- Modal 3 --> */}
       <div id="modal3" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img src="love-hungry-1.png" alt="" className="img-fluid" />
@@ -117,7 +117,7 @@ function Modals() {
                   </a>
                   <a
                     href="https://github.com/moviefan322/love-hungry"
-                    className="btn btn-dark text-white mx-4"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
                   >
                     {" "}
                     Code{" "}
@@ -135,7 +135,7 @@ function Modals() {
       {/* <!-- Modal 4 --> */}
       <div id="modal4" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -177,7 +177,7 @@ function Modals() {
       {/* <!-- Modal 5 --> */}
       <div id="modal5" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
@@ -200,7 +200,7 @@ function Modals() {
                 <div className="mt-7 d-flex justify-content-between">
                   <a
                     href="https://github.com/moviefan322/Invisible-Friend"
-                    className="btn btn-dark text-white btn-outline-dark"
+                    className="btn btn-dark text-white btn-outline-light"
                   >
                     {" "}
                     Code{" "}
@@ -218,7 +218,7 @@ function Modals() {
       {/* <!-- Modal 6 --> */}
       <div id="modal6" className="modal fade">
         <div className="modal-dialog modal-lg mt-7">
-          <div className="modal-content bg-secondary p-5">
+          <div className="modal-content bg-dark text-white p-5">
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img src="devblog.png" alt="" className="img-fluid" />
@@ -239,7 +239,7 @@ function Modals() {
                   </a>
                   <a
                     href="https://github.com/moviefan322/next-ts-blog"
-                    className="btn btn-dark text-white mx-4"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
                   >
                     {" "}
                     Code{" "}
