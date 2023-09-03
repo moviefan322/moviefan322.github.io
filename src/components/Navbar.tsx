@@ -43,9 +43,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className={`collapse navbar-collapse text-center ${
-            isNavbarTrans ? "bg-dark" : ""
-          }`}
+          className={`collapse navbar-collapse text-center`}
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav ms-auto">

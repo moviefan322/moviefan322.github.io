@@ -9,45 +9,46 @@ function Projects() {
             <div className="text-center">
               <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
               <hr className="w-25 mx-auto" />
-              <p className="mb-4 lead">Here is are some examples of my work</p>
+              <p className="mb-4 lead">Here are a few examples of my work</p>
             </div>
           </div>
 
           <div className="row">
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal1">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img src="dist/mlb-app.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
-                      <strong>Orkla Foods</strong> - Donec bibeum mollis liga
-                      sit amet pulvinar sed viverra noris
+                      <strong>AllSports</strong> - Live sports tracking website
+                      with up-to-date scores, odds, and betting
                     </p>
                   </div>
                 </a>
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal2">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img src="espan2.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
-                      <strong>First Bank</strong> - Donec bibeum mollis liga sit
-                      amet pulvinar sed viverra noris
+                      <strong>Españolified</strong> - Spanish-language learning
+                      app with interactive lessons and quizzes
                     </p>
                   </div>
                 </a>
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal3">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img src="love.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
-                      <strong>All Sweets</strong> - Donec bibeum mollis liga sit
-                      amet pulvinar sed viverra noris
+                      <strong>Love Hungry</strong> - A dating website that
+                      matches users with other people that want to eat the same
+                      food
                     </p>
                   </div>
                 </a>
@@ -59,11 +60,15 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-secondary">
                 <a data-bs-toggle="modal" data-bs-target="#modal4">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img
+                    src="laronix-header.png"
+                    className="card-img-top bg-light my-4"
+                  />
                   <div className="card-body">
                     <p>
-                      <strong>Food Courier</strong> - Donec bibeum mollis liga
-                      sit amet pulvinar sed viverra noris
+                      <strong>Laronix</strong> - A voice-modification
+                      application designed to help laryngectomy patients sound
+                      more like themselves
                     </p>
                   </div>
                 </a>
@@ -72,11 +77,11 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-secondary">
                 <a data-bs-toggle="modal" data-bs-target="#modal5">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img src="invis.png" className="card-img-top bg-light" />
                   <div className="card-body">
                     <p>
-                      <strong>Lyra Market</strong> - Donec bibeum mollis liga
-                      sit amet pulvinar sed viverra noris
+                      <strong>Invisible Friend</strong> - An AI friend that you
+                      can customize and talk to
                     </p>
                   </div>
                 </a>
@@ -85,11 +90,11 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-secondary">
                 <a data-bs-toggle="modal" data-bs-target="#modal6">
-                  <img src="vite.svg" className="card-img-top" />
+                  <img src="devblog.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
-                      <strong>Monday Stories</strong> - Donec bibeum mollis liga
-                      sit amet pulvinar sed viverra noris
+                      <strong>My Dev Blog</strong> - I blog about my coding
+                      adventures and provide walkthroughs for various technologies
                     </p>
                   </div>
                 </a>
