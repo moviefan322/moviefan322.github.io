@@ -17,7 +17,7 @@ function Contact() {
               <div className="mb-5">
                 <input
                   type="text"
-                  className="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  className="form-control bg-light border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
                   placeholder="Name"
                   name="name"
                 />
@@ -25,20 +25,20 @@ function Contact() {
               <div className="mb-5">
                 <input
                   type="email"
-                  className="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  className="form-control bg-light border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
                   placeholder="Email"
                   name="email"
                 />
               </div>
               <div className="mb-5">
                 <textarea
-                  className="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  className="form-control bg-light border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
                   placeholder="Message"
                   name="message"
                 ></textarea>
               </div>
               <div className="mb-5 d-grid">
-                <button className="btn btn-primary" type="submit">
+                <button className="btn btn-primary fw-bold fs-5" type="submit">
                   Submit
                 </button>
               </div>

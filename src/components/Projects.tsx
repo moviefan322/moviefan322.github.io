@@ -1,14 +1,16 @@
+import Modals from "./Modals";
+
 function Projects() {
   return (
     <>
       <section className="my-5 pb-5">
         <div className="container">
           <div className="row mb-5">
-          <div className="text-center">
-          <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
-          <hr className="w-25 mx-auto" />
-          <p className="mb-4 lead">Here is are some examples of my work</p>
-        </div>
+            <div className="text-center">
+              <h4 className="text-uppercase fw-bold text-primary">Projects</h4>
+              <hr className="w-25 mx-auto" />
+              <p className="mb-4 lead">Here is are some examples of my work</p>
+            </div>
           </div>
 
           <div className="row">
@@ -96,6 +98,7 @@ function Projects() {
           </div>
         </div>
       </section>
+      <Modals />
     </>
   );
 }
