@@ -58,7 +58,7 @@ function Projects() {
 
           <div className="row">
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal4">
                   <img
                     src="laronix-header.png"
@@ -75,7 +75,7 @@ function Projects() {
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal5">
                   <img src="invis.png" className="card-img-top bg-light" />
                   <div className="card-body">
@@ -88,13 +88,14 @@ function Projects() {
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div className="card bg-secondary">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal6">
                   <img src="devblog.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
                       <strong>My Dev Blog</strong> - I blog about my coding
-                      adventures and provide walkthroughs for various technologies
+                      adventures and provide walkthroughs for various
+                      technologies
                     </p>
                   </div>
                 </a>
