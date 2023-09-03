@@ -81,7 +81,6 @@
 }
 
 .skills-list hr {
-  margin: auto;
   margin-bottom: 0.5rem;
 }
 
@@ -96,5 +95,9 @@
 
   .skills-list {
     text-align: center;
+  }
+
+  .skills-list hr {
+    margin: auto;
   }
 }
