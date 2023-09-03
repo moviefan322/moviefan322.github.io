@@ -1,7 +1,7 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top navbar-dark py-0">
-      <div className="container d-flex justify-content-between bg-dark">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-dark py-0 bg-dark">
+      <div className="container d-flex justify-content-between ">
         <a className="navbar-brand" href="#">
           <img src="favicon.ico" alt="" width="50px" />
         </a>

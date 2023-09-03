@@ -18,7 +18,6 @@ function Hero() {
     "results.",
     "value.",
     "expertise.",
-    "buzzwords.",
     "transformation.",
     "leadership.",
     "collaboration.",
