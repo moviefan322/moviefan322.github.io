@@ -18,9 +18,28 @@ function Hero() {
     "results.",
     "value.",
     "expertise.",
+    "buzzwords.",
+    "transformation.",
+    "leadership.",
+    "collaboration.",
+    "agility.",
+    "disruption.",
+    "inspiration.",
+    "vision.",
+    "integrity.",
+    "excellence.",
+    "trust.",
+    "simplicity.",
+    "impact.",
+    "inclusion.",
+    "sustainability",
+    "optimization.",
+    "empowerment.",
+    "partnership.",
+    "collaboration.",
+    "inclusivity.",
   ];
   const typingDelay = 250;
-  let currentWordIndex = 0;
 
   const typeText = (text: string, typingDelay: number) => {
     let currentIndex = 0;
@@ -34,22 +53,32 @@ function Hero() {
         setTimeout(typeCharacter, typingDelay);
         return;
       }
+      // if (currentIndex === text.length) {
+      //   if (currentWordIndex === 0) {
+      //     return;
+      //   }
+      //   const deleteText = () => {
+      //     setTimeout(() => {
+      //       textContent = textContent.slice(0, -1);
+      //       setTypedText(textContent);
+      //       currentIndex--;
+      //       deleteText();
+      //     }, 125);
+      //   };
+      //   deleteText();
+      // }
     };
 
     typeCharacter();
   };
 
   useEffect(() => {
-    typeText(text[currentWordIndex], typingDelay);
+    typeText(text[+Math.floor(Math.random() * text.length)], typingDelay);
   }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      currentWordIndex++;
-      if (currentWordIndex === text.length) {
-        currentWordIndex = 0;
-      }
-      typeText(text[currentWordIndex], typingDelay);
+      typeText(text[+Math.floor(Math.random() * text.length)], typingDelay);
     }, 4000);
     return () => clearInterval(interval);
   }, []);
