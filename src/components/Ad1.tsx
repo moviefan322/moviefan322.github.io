@@ -9,7 +9,7 @@ function Ad1() {
                 <br></br>
               </div>
             </div>
-            <div className="row">
+            <div className="row row-empty">
               <div className="col-md-12">
                 <br></br>
               </div>
@@ -24,7 +24,7 @@ function Ad1() {
               <h2 className="col-md-4 offset-md-5 text-white">EVERYTHING</h2>
             </div>
           </div>
-          <div className="col-md-6 mb-4">
+          <div className="col-md-6 mb-4 d-none d-md-block">
             <img src="team.png" alt="" height="250px" />
           </div>
         </div>

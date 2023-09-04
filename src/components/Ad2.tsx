@@ -5,16 +5,16 @@ function Ad1() {
     <section className="bg-primary py-4 ad1">
       <div className="container">
         <div className="row pt-3 adrow">
-          <div className="col-md-4 mb-4 offset-md-1">
+          <div className="col-md-4 mb-4 offset-md-1 d-none d-md-block">
             <img src="team.png" alt="" height="250px" />
           </div>
-          <div className="col-md-4 text-left">
+          <div className="col-md-4 text-left ms-md-7 ms-6 col-8">
             <div className="row">
               <div className="col-md-12">
                 <br></br>
               </div>
             </div>
-            <div className="row perrow d-flex flex-row">
+            <div className="row perrow">
               <h2 className="text-white">
                 {" "}
                 <FaCheck />{" "}
