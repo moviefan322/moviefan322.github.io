@@ -1,29 +1,31 @@
-function Ad2() {
+import { FaCheck } from "react-icons/fa";
+
+function Ad1() {
   return (
-    <section className="ad1 pt-4">
+    <section className="bg-primary py-4 ad1">
       <div className="container">
         <div className="row pt-3 adrow">
-          <div className="col-md-4 offset-md-1 mb-4">
+          <div className="col-md-4 mb-4 offset-md-1">
             <img src="team.png" alt="" height="250px" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4 text-left">
             <div className="row">
               <div className="col-md-12">
                 <br></br>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                <br></br>
-              </div>
-            </div>
-            <div className="row">
-              <p className="quote col-md-10 offset-md-1 text-white">“When one treats people with benevolence, justice, and righteousness, and reposes confidence in them, the army will be united in mind, and all will be happy to serve their leaders.”</p>
-            </div>
-            <div className="row">
-              <h2 className="col-md-4 offset-md-5 text-primary">
-                - SUN TZU
+            <div className="row perrow d-flex flex-row">
+              <h2 className="text-white">
+                {" "}
+                <FaCheck />{" "}
+                PLAN
               </h2>
+            </div>
+            <div className="row perrow">
+              <h2 className="text-primary"><FaCheck />{" "}EXECUTE</h2>
+            </div>
+            <div className="row perrow">
+              <h2 className="text-white"><FaCheck />{" "}REPEAT</h2>
             </div>
           </div>
         </div>
@@ -32,4 +34,4 @@ function Ad2() {
   );
 }
 
-export default Ad2;
+export default Ad1;

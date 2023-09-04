@@ -35,7 +35,7 @@
 }
 
 .services {
-  // top: -65px;
+  top: -65px;
   background: #151515 url("/bg-2.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
@@ -85,12 +85,28 @@
 }
 
 .ad1 {
-  background: #151515 url("/dist/nat1.png") no-repeat center center;
+  background: #151515 url("/dist/nat2.png") no-repeat center center;
   background-size: cover;
   position: relative;
 }
 
 .ad1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ad2 {
+  background: #151515 url("/dist/nat4.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.ad2::after {
   content: "";
   position: absolute;
   top: 0;
@@ -105,8 +121,34 @@
   z-index: 10;
 }
 
+.aoerow h2 {
+  font-family: fantasy;
+  font-size: 2.5rem !important;
+  font-weight: 900;
+  text-shadow: 0 0 500px #ffee00;
+}
+
+.perrow h2 {
+  font-family: impact;
+  font-size: 3rem !important;
+  font-weight: 900;
+  text-shadow: 0 0 100px #55ff00;
+}
+
 .quote {
   font-size: 22px;
+}
+
+.perlist {
+  font-family: fantasy;
+  font-size: 2.5rem !important;
+  font-weight: 900;
+  text-shadow: 0 0 500px #ffee00;
+}
+
+.plan {
+  position: relative;
+  left: 200%;
 }
 
 @media (max-width: 767px) {
