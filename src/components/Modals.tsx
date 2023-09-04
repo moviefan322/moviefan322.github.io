@@ -8,7 +8,7 @@ function Modals() {
             <div className="row">
               <div className="col-md-6">
                 <img
-                  src="mlb-app2.png"
+                  src="mlb-app.png"
                   alt=""
                   className="img-fluid border border-dark"
                 />

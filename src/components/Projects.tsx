@@ -17,7 +17,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal1">
-                  <img src="mlb-app.png" className="card-img-top" />
+                  <img src="mlb-app3.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
                       <strong>AllSports</strong> - Live sports tracking website
