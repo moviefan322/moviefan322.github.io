@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Stats from "./components/Stats";
 import Contact from "./components/Contact";
+import Ad1 from "./components/Ad1";
+import Ad2 from "./components/Ad2";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <Navbar />
       <Hero />
       <Bio />
+      <Ad1 />
       <Skills />
       <Projects />
+      <Ad2 />
       <Services />
       <Stats />
       <Contact />
