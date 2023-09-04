@@ -17,8 +17,8 @@ function App() {
       <Bio />
       <Ad1 />
       <Skills />
-      <Projects />
       <Ad2 />
+      <Projects />
       <Services />
       <Stats />
       <Contact />
