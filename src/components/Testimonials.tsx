@@ -14,11 +14,16 @@ function Testimonials() {
                 className="rounded-circle"
               />
               <p className="w-50 my-4 fst-italic fs-4 mb-4">
-                "Phil joined our project <span className="text-primary"> seamlessly</span> and quickly became an
-                <span className="text-primary"> invaluable</span> part of our team. His smooth onboarding process and
-                ability to <span className="text-primary"> collaborate</span> effectively made him an instant <span className="text-primary"> asset</span>.
-                The team thoroughly enjoyed working with him, and his
-                contributions were truly <span className="text-primary"> outstanding</span>."
+                "Phil joined our project{" "}
+                <span className="text-primary"> seamlessly</span> and quickly
+                became an
+                <span className="text-primary"> invaluable</span> part of our
+                team. His smooth onboarding process and ability to{" "}
+                <span className="text-primary"> collaborate</span> effectively
+                made him an instant <span className="text-primary"> asset</span>
+                . The team thoroughly enjoyed working with him, and his
+                contributions were truly{" "}
+                <span className="text-primary"> outstanding</span>."
               </p>
               <div className="fw-bold fs-5 mt-4">Stella Kowalski</div>
               <div>General Manager - Dev+</div>
@@ -34,10 +39,14 @@ function Testimonials() {
               />
               <p className="w-50 my-4 fst-italic fs-4 mb-4">
                 "Phil initially joined our project for a smaller role, but it
-                quickly became evident that his potential was <span className="text-primary"> boundless</span>. Within
-                a short span, he evolved into one of our top contributors and
-                eventually assumed a <span className="text-primary"> leadership</span> role within the team. His rapid
-                growth and <span className="text-primary"> dedication to excellence</span> were truly remarkable.”
+                quickly became evident that his potential was{" "}
+                <span className="text-primary"> boundless</span>. Within a short
+                span, he evolved into one of our top contributors and eventually
+                assumed a <span className="text-primary"> leadership</span> role
+                within the team. His{" "}
+                <span className="text-primary">rapid growth </span>and{" "}
+                <span className="text-primary"> dedication to excellence</span>{" "}
+                were truly remarkable.”
               </p>
               <div className="fw-bold fs-5 mt-4">Raj Patel</div>
               <div>Team Leader - TechFusion Innovations</div>
