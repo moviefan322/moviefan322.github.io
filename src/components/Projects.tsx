@@ -30,7 +30,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal2">
-                  <img src="espan2.png" className="card-img-top" />
+                  <img src="espan4.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
                       <strong>Españolified</strong> - Spanish-language learning
@@ -43,7 +43,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal3">
-                  <img src="love.png" className="card-img-top" />
+                  <img src="love2.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
                       <strong>Love Hungry</strong> - A dating website that
@@ -77,7 +77,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal5">
-                  <img src="invis.png" className="card-img-top bg-light" />
+                  <img src="if-screen.png" className="card-img-top bg-light" />
                   <div className="card-body">
                     <p>
                       <strong>Invisible Friend</strong> - An AI friend that you
@@ -90,7 +90,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal6">
-                  <img src="devblog.png" className="card-img-top" />
+                  <img src="devblog1.png" className="card-img-top"/>
                   <div className="card-body">
                     <p>
                       <strong>My Dev Blog</strong> - I blog about my coding

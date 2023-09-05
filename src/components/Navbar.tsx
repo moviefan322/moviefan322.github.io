@@ -80,7 +80,7 @@ function Navbar() {
           </ul>
           <div className="d-flex align-items-center justify-content-center mx-2 d-none d-md-block">
             {" "}
-            <div className="form-check form-switch">
+            <div className="form-check form-switch d-none">
               <input
                 className="form-check-input"
                 type="checkbox"
