@@ -200,7 +200,11 @@
     margin: 0 !important;
   }
 
-  .stats div {
-    border: 0 !important;
+  .stat {
+    border: none !important;
+    border-bottom: 1px gray solid !important;
+    margin: auto !important;
+    margin-bottom: 1rem !important;
+    width: 50%;
   }
 }
