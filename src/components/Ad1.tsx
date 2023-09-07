@@ -2,7 +2,7 @@ function Ad1() {
   return (
     <section className="bg-primary py-4 ad2">
       <div className="container">
-        <div className="row pt-3 adrow gap-6 hstack">
+        <div className="row pt-3 adrow gap-3 hstack offset-2">
           <div className="col-md-5 text-center">
             <div className="row">
               <div className="col-md-12">
@@ -25,7 +25,7 @@ function Ad1() {
             </div>
           </div>
           <div className="col-md-6 mb-4 d-none d-md-block">
-            <img src="team.png" alt="" height="250px" />
+            <img src="=" alt="" height="250px" />
           </div>
         </div>
       </div>

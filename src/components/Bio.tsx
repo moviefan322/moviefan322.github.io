@@ -9,7 +9,7 @@ function Bio() {
         </div>
         <div className="about-content d-flex gap-5 align-items-center h-100">
           <img
-            src="about.png"
+            src="phil2.png"
             className="about-img img-fluid rounded-circle"
             width="300px"
           />
