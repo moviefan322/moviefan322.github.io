@@ -5,7 +5,7 @@ function Ad1() {
     <section className="bg-primary py-4 ad1">
       <div className="container">
         <div className="row pt-3 adrow">
-          <div className="col-md-4 mb-4 offset-md-1 d-none d-md-block">
+          <div className="col-md-4 mb-4 d-none d-md-block">
             <img src="" alt="" height="250px" />
           </div>
           <div className="col-md-4 text-left ms-md-7 ms-6 col-8">
