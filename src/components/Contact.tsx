@@ -13,7 +13,7 @@ function Contact() {
                 contact me with the form below.
               </p>
             </div>
-            <form name="contact">
+            <form name="contact" action="https://formspree.io/f/xgejyqbo" method="POST">
               <div className="mb-5">
                 <input
                   type="text"
