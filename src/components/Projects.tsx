@@ -77,11 +77,14 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal5">
-                  <img src="if-screen.png" className="card-img-top bg-light" />
+                  <img
+                    src="straightpool.png"
+                    className="card-img-top bg-light"
+                  />
                   <div className="card-body">
                     <p>
-                      <strong>Invisible Friend</strong> - An AI friend that you
-                      can customize and talk to
+                      <strong>14.1/Straight Pool Counter</strong> - A nifty web
+                      application for keeping score in a game of 14.1
                     </p>
                   </div>
                 </a>
@@ -90,7 +93,7 @@ function Projects() {
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal6">
-                  <img src="devblog1.png" className="card-img-top"/>
+                  <img src="devblog1.png" className="card-img-top" />
                   <div className="card-body">
                     <p>
                       <strong>My Dev Blog</strong> - I blog about my coding

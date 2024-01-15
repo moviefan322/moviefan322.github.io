@@ -84,7 +84,8 @@ function Hero() {
 
   return (
     <header className="header vh-100 text-center position-relative">
-      <div className="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+      <div className="text-container position-relative d-flex flex-column
+       justify-content-center align-items-center h-100">
         <h5 className="text-primary fs-3 fw-bold text-uppercase">
           Philip Neumann is
         </h5>

@@ -181,26 +181,29 @@ function Modals() {
             <div className="row">
               <div className="col-md-6 mt-4">
                 <img
-                  src="ifLogoMini.png"
+                  src="straightpool.png"
                   alt=""
-                  className="img-fluid bg-light p-5 position-relative w-75 top-50 start-50 translate-middle"
+                  className="img-fluid bg-light position-relative w-75 top-50 start-50 translate-middle"
                 />
               </div>
               <div className="col-md-6 mt-4 text-center modal-dex">
-                <h3>Invisible Friend</h3>
+                <h3>14.1 Counter</h3>
                 <p>
-                  Invisible Friend is built with a classic MERN stack and
-                  GraphQL. It is a chatbot that you can customize and talk to,
-                  the bot will remember everything you have talked about before
-                  and always remain your loyal friend. Unfortunately, this
-                  application was too costly to host and is no longer available
-                  online, but the code is available for viewing and it may be
-                  run locally.
+                  This is a web application for keeping score in a game of 14.1.
+                  For now, it is a standalone front-end application built using
+                  Next.js.
                 </p>
                 <div className="mt-7 d-flex justify-content-between modal-link">
                   <a
-                    href="https://github.com/moviefan322/Invisible-Friend"
-                    className="btn btn-dark text-white btn-outline-light"
+                    href="https://straight-pool-counter.vercel.app/"
+                    className="btn btn-primary text-white btn-outline-dark"
+                  >
+                    {" "}
+                    Site{" "}
+                  </a>
+                  <a
+                    href="https://github.com/moviefan322/straight-pool-counter"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
                   >
                     {" "}
                     Code{" "}
