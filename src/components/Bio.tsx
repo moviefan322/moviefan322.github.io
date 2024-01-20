@@ -14,7 +14,7 @@ function Bio() {
             width="300px"
           />
           <p className="lead">
-            Hi there! I am a Brazilian-American full-stack web developer based in NYC. My
+            Hi there. I am a Brazilian-American full-stack web developer based in NYC. My
             journey began with JavaScript and evolved into a passion for a wide
             range of web technologies. <br /><br />
             Having lived in various parts of the world, I've gained a unique
