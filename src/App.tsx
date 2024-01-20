@@ -10,6 +10,8 @@ import Ad1 from "./components/Ad1";
 import Ad2 from "./components/Ad2";
 import Testimonials from "./components/Testimonials";
 
+// trivial comment
+
 function App() {
   return (
     <>
