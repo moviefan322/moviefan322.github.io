@@ -29,7 +29,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to GitHub Pages
-      run: npm run deploy
+      run: npm run autodeploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     
