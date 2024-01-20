@@ -28,6 +28,11 @@ jobs:
     - name: Build Project
       run: npm run build
 
+    - name: Config User
+      run: |
+        git config --global user.name 'moviefan322'
+        git config --global user.email 'philman202@yahoo.com'
+
     - name: Deploy to GitHub Pages
       run: npm run autodeploy
       env:
