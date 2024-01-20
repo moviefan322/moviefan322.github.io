@@ -25,7 +25,7 @@ function Ad1() {
             </div>
           </div>
           <div className="col-md-6 mb-4 d-none d-md-block">
-            <img src="=" alt="" height="250px" />
+            <img src="nat4.png" alt="" height="250px" />
           </div>
         </div>
       </div>
