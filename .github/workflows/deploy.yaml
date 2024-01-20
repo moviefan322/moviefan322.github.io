@@ -20,6 +20,11 @@ jobs:
     - name: Build Project
       run: npm run build
 
+    - name: Configure Git
+      run: |
+        git config --global user.name 'moviefan322'
+        git config --global user.email 'philman202@yahoo.com'
+
     - name: Deploy to GH Pages
       run: npm run deploy
       env:
