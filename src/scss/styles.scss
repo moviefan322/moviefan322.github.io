@@ -5,7 +5,7 @@
 
 .header {
   top: -65px;
-  background: #151515 url("../public/bg.jpg") no-repeat center center;
+  background: #151515 url("../assets/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   zoom: 1.05;
@@ -36,7 +36,7 @@
 
 .services {
   // top: -65px;
-  background: #151515 url("../public/bg-2.jpg") no-repeat center center;
+  background: #151515 url("../assets/bg-2.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   zoom: 1.05;
@@ -85,7 +85,7 @@
 }
 
 .ad1 {
-  background: #151515 url("../public/nat2.jpg") no-repeat center center;
+  background: #151515 url("../assets/nat2.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -101,7 +101,7 @@
 }
 
 .ad2 {
-  background: #151515 url("/dist/nat4.jpg") no-repeat center center;
+  background: #151515 url("../assets/nat4.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
