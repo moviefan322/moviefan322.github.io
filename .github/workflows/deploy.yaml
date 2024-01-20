@@ -7,12 +7,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # Updated to latest version
 
     - name: Set up Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3  # Updated to latest version
       with:
-        node-version: '18' 
+        node-version: '16'  # Explicitly specify Node.js version
+
+    - name: Cache Node.js modules
+      uses: actions/cache@v2
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
 
     - name: Install Dependencies
       run: npm install
@@ -20,12 +28,7 @@ jobs:
     - name: Build Project
       run: npm run build
 
-    - name: Configure Git
-      run: |
-        git config --global user.name 'moviefan322'
-        git config --global user.email 'philman202@yahoo.com'
-
-    - name: Deploy to GH Pages
+    - name: Deploy to GitHub Pages
       run: npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
