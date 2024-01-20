@@ -29,8 +29,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to GitHub Pages
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        npx gh-pages -d dist -r https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/moviefan322/moviefan322.github.io.git
+      run: npm run deploy
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     
