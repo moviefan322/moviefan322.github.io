@@ -34,7 +34,7 @@ jobs:
         git config --global user.email 'philman202@yahoo.com'
 
     - name: Deploy to GitHub Pages
-      run: npm run autodeploy
+      run: npm run deploy
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     
