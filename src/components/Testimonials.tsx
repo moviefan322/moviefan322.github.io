@@ -9,7 +9,7 @@ function Testimonials() {
           <div className="carousel-item active">
             <div className="d-flex flex-column justify-content-center align-items-center text-center">
               <img
-                src="hari.jpg"
+                src="hari.png"
                 width="120px"
                 className="rounded-circle"
               />
