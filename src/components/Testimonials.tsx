@@ -17,7 +17,7 @@ function Testimonials() {
                 "Phil is a{" "}
                 <span className="text-primary"> varacious</span> and 
                 <span className="text-primary"> capable</span> engineer. He's been an absolute{" "}
-                <span className="text-primary"> asset</span> for our team.
+                <span className="text-primary"> asset</span> for our team."
               </p>
               <div className="fw-bold fs-5 mt-4">Sriharo Rao</div>
               <div>Founder - King Henry</div>
@@ -27,23 +27,18 @@ function Testimonials() {
           <div className="carousel-item">
             <div className="d-flex flex-column justify-content-center align-items-center text-center">
               <img
-                src="testimonial-2.jpg"
+                src="hanley.png"
                 width="120px"
                 className="rounded-circle"
               />
               <p className="w-50 my-4 fst-italic fs-4 mb-4">
-                "Phil initially joined our project for a smaller role, but it
-                quickly became evident that his potential was{" "}
-                <span className="text-primary"> boundless</span>. Within a short
-                span, he evolved into one of our top contributors and eventually
-                assumed a <span className="text-primary"> leadership</span> role
-                within the team. His{" "}
-                <span className="text-primary">rapid growth </span>and{" "}
-                <span className="text-primary"> dedication to excellence</span>{" "}
-                were truly remarkable.”
+                "Working with Phil was an absolute <span className="text-primary">pleasure </span>. His{" "}
+                <span className="text-primary">professionalism </span>and{" "}
+                <span className="text-primary"> communication skills</span>{" "}
+                made the project incredibly smooth.”
               </p>
-              <div className="fw-bold fs-5 mt-4">Raj Patel</div>
-              <div>Team Leader - TechFusion Innovations</div>
+              <div className="fw-bold fs-5 mt-4">Tom Hanley</div>
+              <div>Events & Marketing Manager - Redbank River Center</div>
             </div>
           </div>
           {/* <!-- Slide 3 --> */}
