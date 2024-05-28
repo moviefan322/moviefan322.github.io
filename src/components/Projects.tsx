@@ -16,8 +16,25 @@ function Projects() {
           <div className="row">
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
+                <a data-bs-toggle="modal" data-bs-target="#modalredbank">
+                  <img src="rb.png" className="card-img-top" height="400px" />
+                  <div className="card-body">
+                    <p>
+                      <strong>Redbank.org</strong> - Municipal tourism website
+                      for Redbank, NJ.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal1">
-                  <img src="mlb-app3.png" className="card-img-top" />
+                  <img
+                    src="mlb-app3.png"
+                    className="card-img-top"
+                    height="400px"
+                  />
                   <div className="card-body">
                     <p>
                       <strong>AllSports</strong> - Live sports tracking website
@@ -29,26 +46,12 @@ function Projects() {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
-                <a data-bs-toggle="modal" data-bs-target="#modal2">
-                  <img src="espan4.png" className="card-img-top" />
+                <a data-bs-toggle="modal" data-bs-target="#modaltsb">
+                  <img src="tsb.png" className="card-img-top" height="400px" />
                   <div className="card-body">
                     <p>
-                      <strong>Españolified</strong> - Spanish-language learning
-                      app with interactive lessons and quizzes
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4">
-              <div className="card bg-primary">
-                <a data-bs-toggle="modal" data-bs-target="#modal3">
-                  <img src="love2.png" className="card-img-top" />
-                  <div className="card-body">
-                    <p>
-                      <strong>Love Hungry</strong> - A dating website that
-                      matches users with other people that want to eat the same
-                      food
+                      <strong>Turkish Study Buddy</strong> - An application
+                      designed to help users learn Turkish
                     </p>
                   </div>
                 </a>
@@ -57,6 +60,20 @@ function Projects() {
           </div>
 
           <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card bg-primary">
+                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                  <img src="bud.png" className="card-img-top" />
+                  <div className="card-body">
+                    <p>
+                      <strong>Billiards University Drills</strong> - This
+                      application guides the user through several billiards
+                      drill routines and allows them to track their progress
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal4">
@@ -76,6 +93,22 @@ function Projects() {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
+                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img src="espan4.png" className="card-img-top" />
+                  <div className="card-body">
+                    <p>
+                      <strong>Españolified</strong> - Spanish-language learning
+                      app with interactive lessons and quizzes
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal5">
                   <img
                     src="straightpool.png"
@@ -85,6 +118,20 @@ function Projects() {
                     <p>
                       <strong>14.1/Straight Pool Counter</strong> - A nifty web
                       application for keeping score in a game of 14.1
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card bg-primary">
+                <a data-bs-toggle="modal" data-bs-target="#modal3">
+                  <img src="love2.png" className="card-img-top" />
+                  <div className="card-body">
+                    <p>
+                      <strong>Love Hungry</strong> - A dating website that
+                      matches users with other people that want to eat the same
+                      food
                     </p>
                   </div>
                 </a>

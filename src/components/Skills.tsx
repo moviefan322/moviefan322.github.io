@@ -6,6 +6,8 @@ function Skills() {
     "TypeScript",
     "Python",
     "React",
+    "Vue",
+    "Angular",
     "Next.js",
     "Node.js",
     "Nest.js",

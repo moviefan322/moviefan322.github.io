@@ -256,6 +256,146 @@ function Modals() {
           </div>
         </div>
       </div>
+
+      {/* <!-- Modal 7 --> */}
+      <div id="modalredbank" className="modal fade">
+        <div className="modal-dialog modal-lg mt-7">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
+            <div className="row">
+              <div className="col-md-6 mt-4">
+                <img src="rbadmin.png" alt="" className="img-fluid" />
+              </div>
+              <div className="col-md-6 mt-4 text-center modal-dex">
+                <h3>Redbank.org</h3>
+                <p>
+                  This is a full-stack application built with Next.js, MongoDB,
+                  Express, and Node.js. It is a website for the Redbank River
+                  Center in Redbank, PA. The site features a blog, event
+                  calendar, and a custom admin panel for managing events and
+                  blog posts- the admin interface is extensive and allows the
+                  Redbank River Center to manage their website without any
+                  coding knowledge.{" "}
+                  <a href="https://www.youtube.com/watch?v=Ys2uNrQiMBM">
+                    Admin Demo Video
+                  </a>
+                </p>
+                <div className="mt-7 d-flex justify-content-between modal-link">
+                  <a
+                    href="https://www.redbank.org/"
+                    className="btn btn-primary text-white btn-outline-dark"
+                  >
+                    {" "}
+                    Site{" "}
+                  </a>
+                  <a
+                    href="https://github.com/moviefan322/redbank"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
+                  >
+                    {" "}
+                    Code{" "}
+                  </a>
+                  <button className="btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modaltsb" className="modal fade">
+        <div className="modal-dialog modal-lg mt-7">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
+            <div className="row">
+              <div className="col-md-6 mt-4">
+                <img src="tsbbig.png" alt="" className="img-fluid" />
+              </div>
+              <div className="col-md-6 mt-4 text-center modal-dex">
+                <h3>Turkish Study Buddy</h3>
+                <h5>
+                  <strong>*in progress*</strong>
+                </h5>
+                <p>
+                  This is the early stages of a full-stack application built
+                  with Next.js, Python, and Django. It is an application
+                  designed to help users learn Turkish. The application features
+                  a spaced repetition algorithm to help users learn vocabulary
+                  and grammar. The application is still in the early stages of
+                  development, for now it's just a front-end that serves
+                  flashcards and computationally conjugates verbs into different
+                  tenses, which can be quite complicated in Turkish.
+                </p>
+                <div className="mt-7 d-flex justify-content-between modal-link">
+                  <a
+                    href="https://turkish-study-buddy.vercel.app/"
+                    className="btn btn-primary text-white btn-outline-dark"
+                  >
+                    {" "}
+                    Site{" "}
+                  </a>
+                  <a
+                    href="https://github.com/moviefan322/turkish-study-buddy"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
+                  >
+                    {" "}
+                    Code{" "}
+                  </a>
+                  <button className="btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modalbud" className="modal fade">
+        <div className="modal-dialog modal-lg mt-7">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
+            <div className="row">
+              <div className="col-md-6 mt-4">
+                <img src="budbig.png" alt="" className="img-fluid" />
+              </div>
+              <div className="col-md-6 mt-4 text-center modal-dex">
+                <h3>Billiard University Drills</h3>
+                <h5>
+                  <strong>*in progress*</strong>
+                </h5>
+                <p>
+                  This is the early stages of a full-stack application built
+                  with Vue.js, Django, Python, and Postgres. The application is
+                  designed to guide the user through several billiards drills
+                  and allow them to track their progress. The application will
+                  eventually allow users to create their own drills and practice
+                  routines and share them with others, with dynamically
+                  generated diagrams created with d3.
+                </p>
+                <div className="mt-7 d-flex justify-content-between modal-link">
+                  <a
+                    href="https://bu-drills.vercel.app/"
+                    className="btn btn-primary text-white btn-outline-dark"
+                  >
+                    {" "}
+                    Site{" "}
+                  </a>
+                  <a
+                    href="https://github.com/moviefan322/vuebsdrills"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
+                  >
+                    {" "}
+                    Code{" "}
+                  </a>
+                  <button className="btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
