@@ -9,24 +9,18 @@ function Testimonials() {
           <div className="carousel-item active">
             <div className="d-flex flex-column justify-content-center align-items-center text-center">
               <img
-                src="testimonial-1.jpg"
+                src="hari.jpg"
                 width="120px"
                 className="rounded-circle"
               />
               <p className="w-50 my-4 fst-italic fs-4 mb-4">
-                "Phil joined our project{" "}
-                <span className="text-primary"> seamlessly</span> and quickly
-                became an
-                <span className="text-primary"> invaluable</span> part of our
-                team. His smooth onboarding process and ability to{" "}
-                <span className="text-primary"> collaborate</span> effectively
-                made him an instant <span className="text-primary"> asset</span>
-                . The team thoroughly enjoyed working with him, and his
-                contributions were truly{" "}
-                <span className="text-primary"> outstanding</span>."
+                "Phil is a{" "}
+                <span className="text-primary"> varacious</span> and 
+                <span className="text-primary"> capable</span> engineer. He's been an absolute{" "}
+                <span className="text-primary"> asset</span> for our team.
               </p>
-              <div className="fw-bold fs-5 mt-4">Stella Kowalski</div>
-              <div>General Manager - Dev+</div>
+              <div className="fw-bold fs-5 mt-4">Sriharo Rao</div>
+              <div>Founder - King Henry</div>
             </div>
           </div>
           {/* <!-- Slide 2 --> */}
