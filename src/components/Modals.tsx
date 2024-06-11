@@ -396,6 +396,48 @@ function Modals() {
           </div>
         </div>
       </div>
+
+      <div id="modalai" className="modal fade">
+        <div className="modal-dialog modal-lg mt-7">
+          <div className="modal-content bg-dark text-white p-5 border-2 border-light">
+            <div className="row">
+              <div className="col-md-6 mt-4">
+                <img src="aiscreenshot.png" alt="" className="img-fluid" />
+              </div>
+              <div className="col-md-6 mt-4 text-center modal-dex">
+                <h3>AI Political Consultant</h3>
+                <p>
+                  This application is designed to help spin political sentiment
+                  online. It is built with a Next.js front end and a Python back
+                  end. The application uses a sentiment analysis algorithm to
+                  track political sentiment online and provide a dashboard for
+                  users to track sentiment over time. It uses an OpenAI wrapper
+                  to generate positve respones to negative tweets.
+                </p>
+                <div className="mt-7 d-flex justify-content-between modal-link">
+                  <a
+                    href="https://ai-political-consultant.vercel.app/"
+                    className="btn btn-primary text-white btn-outline-dark"
+                  >
+                    {" "}
+                    Site{" "}
+                  </a>
+                  <a
+                    href="https://github.com/moviefan322/politic"
+                    className="btn btn-dark text-white mx-4 btn-outline-light"
+                  >
+                    {" "}
+                    Code{" "}
+                  </a>
+                  <button className="btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

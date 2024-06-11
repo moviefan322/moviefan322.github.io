@@ -27,6 +27,23 @@ function Projects() {
                 </a>
               </div>
             </div>
+            <div className="col-md-4 mb-4 align-self-center">
+              <div className="card bg-primary">
+                <a data-bs-toggle="modal" data-bs-target="#modalai">
+                  <img
+                    src="ailogo.png"
+                    className="card-img-top"
+                    height="200px"
+                  />
+                  <div className="card-body">
+                    <p>
+                      <strong>AI Political Consultants</strong> - An application
+                      to track and analyze political sentiment online
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
                 <a data-bs-toggle="modal" data-bs-target="#modal1">
@@ -39,19 +56,6 @@ function Projects() {
                     <p>
                       <strong>AllSports</strong> - Live sports tracking website
                       with up-to-date scores, odds, and betting
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4">
-              <div className="card bg-primary">
-                <a data-bs-toggle="modal" data-bs-target="#modaltsb">
-                  <img src="tsb.png" className="card-img-top" height="400px" />
-                  <div className="card-body">
-                    <p>
-                      <strong>Turkish Study Buddy</strong> - An application
-                      designed to help users learn Turkish
                     </p>
                   </div>
                 </a>
@@ -76,16 +80,12 @@ function Projects() {
             </div>
             <div className="col-md-4 mb-4">
               <div className="card bg-primary">
-                <a data-bs-toggle="modal" data-bs-target="#modal4">
-                  <img
-                    src="laronix-header.png"
-                    className="card-img-top bg-light my-4"
-                  />
+                <a data-bs-toggle="modal" data-bs-target="#modaltsb">
+                  <img src="tsb.png" className="card-img-top" height="400px" />
                   <div className="card-body">
                     <p>
-                      <strong>Laronix</strong> - A voice-modification
-                      application designed to help laryngectomy patients sound
-                      more like themselves
+                      <strong>Turkish Study Buddy</strong> - An application
+                      designed to help users learn Turkish
                     </p>
                   </div>
                 </a>
@@ -137,15 +137,18 @@ function Projects() {
                 </a>
               </div>
             </div>
-            <div className="col-md-4 mb-4">
+            <div className="col-md-4 mb-4 align-self-center">
               <div className="card bg-primary">
-                <a data-bs-toggle="modal" data-bs-target="#modal6">
-                  <img src="devblog1.png" className="card-img-top" />
+                <a data-bs-toggle="modal" data-bs-target="#modal4">
+                  <img
+                    src="laronix-header.png"
+                    className="card-img-top bg-light my-4"
+                  />
                   <div className="card-body">
                     <p>
-                      <strong>My Dev Blog</strong> - I blog about my coding
-                      adventures and provide walkthroughs for various
-                      technologies
+                      <strong>Laronix</strong> - A voice-modification
+                      application designed to help laryngectomy patients sound
+                      more like themselves
                     </p>
                   </div>
                 </a>
